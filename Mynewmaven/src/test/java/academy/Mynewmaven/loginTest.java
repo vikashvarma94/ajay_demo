@@ -90,12 +90,7 @@ public class loginTest extends basicdriver {
 		
 		
 		
-		
-		
-		
-		
-		
-		
+
 		
 	}
 		return data;
