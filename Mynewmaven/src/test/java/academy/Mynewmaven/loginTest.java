@@ -21,9 +21,6 @@ public class loginTest extends basicdriver {
 		driver=driverwakeup();
 		driver.get(prope.getProperty("url"));
 		
-		
-		
-		
 	}
 	
 	
