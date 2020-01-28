@@ -1,0 +1,6 @@
+resources\basicdriver.class
+resources\ExtentManager.class
+pageobjectsmy\nxtmylesregister.class
+academy\Mynewmaven\App.class
+pageobjectsmy\nxtmylesloginpage.class
+pageobjectsmy\nxtmyleshomepage.class

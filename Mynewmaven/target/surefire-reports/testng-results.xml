@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nxtmyles public" duration-ms="103416" started-at="2020-01-28T17:01:28Z" finished-at="2020-01-28T17:03:11Z">
+    <groups>
+    </groups>
+    <test name="landingnewpage" duration-ms="27011" started-at="2020-01-28T17:01:28Z" finished-at="2020-01-28T17:01:55Z">
+      <class name="academy.Mynewmaven.LandingpageTest">
+        <test-method status="PASS" signature="validation()[pri:0, instance:academy.Mynewmaven.LandingpageTest@38e79ae3]" name="validation" is-config="true" duration-ms="18277" started-at="2020-01-28T17:01:28Z" finished-at="2020-01-28T17:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="landinginn()[pri:0, instance:academy.Mynewmaven.LandingpageTest@38e79ae3]" name="landinginn" duration-ms="4031" started-at="2020-01-28T17:01:46Z" finished-at="2020-01-28T17:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landinginn -->
+        <test-method status="PASS" signature="closeall()[pri:0, instance:academy.Mynewmaven.LandingpageTest@38e79ae3]" name="closeall" is-config="true" duration-ms="4635" started-at="2020-01-28T17:01:50Z" finished-at="2020-01-28T17:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- academy.Mynewmaven.LandingpageTest -->
+    </test> <!-- landingnewpage -->
+    <test name="loginnew" duration-ms="56055" started-at="2020-01-28T17:01:55Z" finished-at="2020-01-28T17:02:51Z">
+      <class name="academy.Mynewmaven.loginTest">
+        <test-method status="PASS" signature="validation()[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="validation" is-config="true" duration-ms="8111" started-at="2020-01-28T17:01:55Z" finished-at="2020-01-28T17:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="logincase(java.lang.String, java.lang.String)[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="logincase" duration-ms="6086" started-at="2020-01-28T17:02:07Z" data-provider="getids" finished-at="2020-01-28T17:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincase -->
+        <test-method status="PASS" signature="logincase(java.lang.String, java.lang.String)[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="logincase" duration-ms="5566" started-at="2020-01-28T17:02:13Z" data-provider="getids" finished-at="2020-01-28T17:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[baby]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincase -->
+        <test-method status="PASS" signature="logincase(java.lang.String, java.lang.String)[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="logincase" duration-ms="5688" started-at="2020-01-28T17:02:19Z" data-provider="getids" finished-at="2020-01-28T17:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaff1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jaffa2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincase -->
+        <test-method status="PASS" signature="logincase(java.lang.String, java.lang.String)[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="logincase" duration-ms="5580" started-at="2020-01-28T17:02:25Z" data-provider="getids" finished-at="2020-01-28T17:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jafa1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jafa2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincase -->
+        <test-method status="PASS" signature="logincase(java.lang.String, java.lang.String)[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="logincase" duration-ms="5613" started-at="2020-01-28T17:02:30Z" data-provider="getids" finished-at="2020-01-28T17:02:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fdkgskdjs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asjhfbah]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincase -->
+        <test-method status="PASS" signature="logincase(java.lang.String, java.lang.String)[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="logincase" duration-ms="5848" started-at="2020-01-28T17:02:36Z" data-provider="getids" finished-at="2020-01-28T17:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashjbhfsad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ashbfashbh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincase -->
+        <test-method status="PASS" signature="logincase(java.lang.String, java.lang.String)[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="logincase" duration-ms="5752" started-at="2020-01-28T17:02:42Z" data-provider="getids" finished-at="2020-01-28T17:02:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sahbfa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asnbdab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logincase -->
+        <test-method status="PASS" signature="closeall()[pri:0, instance:academy.Mynewmaven.loginTest@11fc564b]" name="closeall" is-config="true" duration-ms="4120" started-at="2020-01-28T17:02:47Z" finished-at="2020-01-28T17:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- academy.Mynewmaven.loginTest -->
+    </test> <!-- loginnew -->
+    <test name="registrationpage" duration-ms="19396" started-at="2020-01-28T17:02:52Z" finished-at="2020-01-28T17:03:11Z">
+      <class name="academy.Mynewmaven.RegistrationpageTest">
+        <test-method status="PASS" signature="validation()[pri:0, instance:academy.Mynewmaven.RegistrationpageTest@3f56875e]" name="validation" is-config="true" duration-ms="7862" started-at="2020-01-28T17:02:52Z" finished-at="2020-01-28T17:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method status="PASS" signature="registrationtest()[pri:0, instance:academy.Mynewmaven.RegistrationpageTest@3f56875e]" name="registrationtest" duration-ms="7164" started-at="2020-01-28T17:02:59Z" finished-at="2020-01-28T17:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationtest -->
+        <test-method status="PASS" signature="closeall()[pri:0, instance:academy.Mynewmaven.RegistrationpageTest@3f56875e]" name="closeall" is-config="true" duration-ms="4368" started-at="2020-01-28T17:03:07Z" finished-at="2020-01-28T17:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- academy.Mynewmaven.RegistrationpageTest -->
+    </test> <!-- registrationpage -->
+  </suite> <!-- nxtmyles public -->
+</testng-results>

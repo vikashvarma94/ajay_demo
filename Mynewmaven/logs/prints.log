@@ -1,0 +1,6 @@
+22:32:44.757 [main] ERROR academy.Mynewmaven.loginTest - this is error
+22:32:44.873 [main] INFO  academy.Mynewmaven.loginTest - filling required feilds
+22:32:47.849 [main] INFO  academy.Mynewmaven.loginTest - clicked on go
+22:33:03.074 [main] INFO  academy.Mynewmaven.RegistrationpageTest - clicked on registration button
+22:33:05.751 [main] INFO  academy.Mynewmaven.RegistrationpageTest - sending keys required
+22:33:07.107 [main] INFO  academy.Mynewmaven.RegistrationpageTest - registration completed secussfully

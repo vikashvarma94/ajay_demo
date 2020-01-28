@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nxtmyles public]">
+  <test thread-count="5" name="landingnewpage(failed)">
+    <classes>
+      <class name="academy.Mynewmaven.LandingpageTest">
+        <methods>
+          <include name="landinginn"/>
+          <include name="closeall"/>
+          <include name="validation"/>
+        </methods>
+      </class> <!-- academy.Mynewmaven.LandingpageTest -->
+    </classes>
+  </test> <!-- landingnewpage(failed) -->
+</suite> <!-- Failed suite [nxtmyles public] -->

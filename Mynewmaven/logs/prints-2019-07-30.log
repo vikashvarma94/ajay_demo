@@ -1,0 +1,7 @@
+22:32:33.492 [main] INFO  academy.Mynewmaven.loginTest - filling required feilds
+22:32:36.247 [main] INFO  academy.Mynewmaven.loginTest - clicked on go
+22:32:39.018 [main] INFO  academy.Mynewmaven.loginTest - clicked on login button
+22:32:39.174 [main] ERROR academy.Mynewmaven.loginTest - this is error
+22:32:39.317 [main] INFO  academy.Mynewmaven.loginTest - filling required feilds
+22:32:42.096 [main] INFO  academy.Mynewmaven.loginTest - clicked on go
+22:32:44.648 [main] INFO  academy.Mynewmaven.loginTest - clicked on login button

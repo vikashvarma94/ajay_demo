@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nxtmyles public">
+
+<listeners>
+
+<listener class-name="academy.Mynewmaven.Listenersclass"/>
+<listener class-name="academy.Mynewmaven.ExtentReportsListeners"/>
+</listeners>
+  <test thread-count="5" name="landingnewpage">
+    <classes>
+      <class name="academy.Mynewmaven.LandingpageTest"/>
+      </classes>
+      </test>
+      <test name="loginnew">
+      <classes>
+     <class name="academy.Mynewmaven.loginTest"/>
+      </classes>
+      </test>
+      <test name="registrationpage">
+      <classes>
+      <class name="academy.Mynewmaven.RegistrationpageTest"/>
+    </classes>
+  </test> 
+</suite>
