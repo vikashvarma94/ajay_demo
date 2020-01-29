@@ -18,12 +18,12 @@ public class nxtmyleshomepage {
 	
 	
 	public WebDriver driver;
-By login=By.xpath("//i[@class='fa fa-lock']");
-By register=By.xpath("//i[@class='fa fa-user']"); 
-	By headerhome=By.linkText("Home");
-	By searchtruck=By.linkText("Search a Truck");
-	By availabletrucks=By.xpath("//a[@class='Active']");
-	By aboutus=By.linkText("About Us");
+private By login=By.xpath("//i[@class='fa fa-lock']");
+private By register=By.xpath("//i[@class='fa fa-user']"); 
+private By headerhome=By.linkText("Home");
+private	By searchtruck=By.linkText("Search a Truck");
+private	By availabletrucks=By.xpath("//a[@class='Active']");
+private	By aboutus=By.linkText("About Us");
 	
 	
 public WebElement getlogin() 

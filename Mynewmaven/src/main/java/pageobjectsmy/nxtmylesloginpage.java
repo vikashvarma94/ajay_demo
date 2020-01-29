@@ -18,19 +18,19 @@ public class nxtmylesloginpage {
 	
 	
 	public WebDriver driver;
-By login=By.xpath("//i[@class='fa fa-lock']");
+	private By login=By.xpath("//i[@class='fa fa-lock']");
 
-By username=By.id("email");
+	private By username=By.id("email");
 
-By password=By.id("password");
+	private By password=By.id("password");
 
-By rememberpass=By.xpath("//input[type='checkbox']");
+	private By rememberpass=By.xpath("//input[type='checkbox']");
 
-By signin=By.xpath("//input[@type='submit']");
+	private By signin=By.xpath("//input[@type='submit']");
 
-By newregister=By.linkText("New Registration");
+	private By newregister=By.linkText("New Registration");
 
-By forgotpass=By.linkText("Forgot Password?");
+	private By forgotpass=By.linkText("Forgot Password?");
 
 
 	
@@ -88,6 +88,15 @@ return driver.findElement(newregister);
 	
 	
 }
+
+public WebElement forgotpassword() 
+{
+	
+return driver.findElement(forgotpass);
+	
+	
+}
+
 
 
 
