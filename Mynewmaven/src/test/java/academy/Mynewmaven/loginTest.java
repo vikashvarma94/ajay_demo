@@ -6,11 +6,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import pageobjectsmy.nxtmylesloginpage;
-import resources.ExcelUtilsmy;
+import resources.Dataproviderutils;
 import resources.basicdriver;
 
 public class loginTest extends basicdriver {
@@ -37,7 +36,7 @@ public class loginTest extends basicdriver {
 	}
 	
 	
-	@Test(dataProvider="getids")
+	@Test(dataProvider="getids",dataProviderClass =Dataproviderutils.class)
 	public void logincase(String username,String passward) throws IOException, InterruptedException
 	{
 		
@@ -64,8 +63,7 @@ public class loginTest extends basicdriver {
 	}
 	
 	
-	
-	@DataProvider
+	/*@DataProvider
 	
 	public Object[][] getids() throws Exception
 	{
@@ -87,15 +85,23 @@ public class loginTest extends basicdriver {
 		//data[0][2]="normaluser";
 		}
 		
+
+}
+		return data;
+	}*/
+	
+}
+
+	
+	
 		
 		
 		
 
 		
-	}
-		return data;
 	
 	
 	
-	}
-}
+	
+	
+
